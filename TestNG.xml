@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="nopcommerceV2">
+
+<listeners>
+
+
+<listener class-name="com.nopcommerceV2.utilities.Reporting">
+
+
+
+</listener>
+
+</listeners>
+
+<test name="Test1">
+
+<parameter name="Browser" value="Chrome">
+
+</parameter>
+
+<classes>
+
+<class name="com.nopcommerceV2.testcases.TC_LoginTest">
+
+</class>
+
+</classes>
+
+</test>
+
+
+<!--  <test name="Test1">
+
+<parameter name="Browser" value="Firefox">
+
+</parameter>
+
+<classes>
+
+<class name="com.nopcommerceV2.testcases.TC_LoginTest">
+
+</class>
+
+</classes>
+
+</test>-->
+
+
+</suite>

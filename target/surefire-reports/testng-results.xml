@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="nopcommerceV2" duration-ms="51171" started-at="2022-05-04T11:31:33Z" finished-at="2022-05-04T11:32:24Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="51171" started-at="2022-05-04T11:31:33Z" finished-at="2022-05-04T11:32:24Z">
+      <class name="com.nopcommerceV2.testcases.TC_LoginTest">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.nopcommerceV2.testcases.TC_LoginTest@458ad742]" name="Setup" is-config="true" duration-ms="2474" started-at="2022-05-04T11:31:33Z" finished-at="2022-05-04T11:31:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.nopcommerceV2.testcases.TC_LoginTest@458ad742]" name="LoginTest" duration-ms="47759" started-at="2022-05-04T11:31:35Z" finished-at="2022-05-04T11:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.nopcommerceV2.testcases.TC_LoginTest@458ad742]" name="Teardown" is-config="true" duration-ms="738" started-at="2022-05-04T11:32:23Z" finished-at="2022-05-04T11:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.nopcommerceV2.testcases.TC_LoginTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- nopcommerceV2 -->
+</testng-results>
